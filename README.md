@@ -51,3 +51,90 @@ Facial_Recognition_System/
 │
 ├── templates/           #
 │   └── index.html       #
+
+
+
+
+
+---
+
+## 🧠 How It Works
+
+1. The system loads training images from the `dataset` folder.
+2. Faces are detected using Haarcascade.
+3. LBPH model is trained and saved as `face_model.yml`.
+4. During live webcam streaming:
+   - Faces are detected.
+   - The trained model predicts identity.
+   - If confidence is high → Name is displayed.
+   - If not → Marked as "Unknown".
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/your-username/Facial-Recognition-System.git
+cd Facial-Recognition-System2️⃣ Create Virtual Environment
+python -m venv venv
+.\venv\Scripts\activate
+
+3️⃣ Install Dependencies
+pip install opencv-contrib-python flask numpy
+
+4️⃣ Prepare Dataset
+
+Create folder structure:
+
+dataset/
+   ├── YourName/
+        ├── img1.jpg
+        ├── img2.jpg
+
+
+Use clear front-facing images.
+
+5️⃣ Train Model
+python train_model.py
+
+
+This generates:
+
+face_model.yml
+
+6️⃣ Run Application
+python app.py
+
+
+Open browser:
+
+http://127.0.0.1:5000
+
+🎯 Future Improvements
+
+Face Login Authentication
+
+Attendance System
+
+Blink Detection
+
+Anti-Spoofing Security
+
+Database Integration
+
+Deployment to Cloud
+
+👨‍💻 Author
+
+Manoj TK
+AI & Machine Learning Enthusiast 🚀
+
+
+
+
+
+
+
+
