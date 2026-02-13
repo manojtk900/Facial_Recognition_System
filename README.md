@@ -1,6 +1,6 @@
 # Face_Recognition_login-System
 
-# 🎯 Real-Time Facial Recognition System
+#  Real-Time Facial Recognition System
 
 A simple real-time face recognition web application built using Python, OpenCV, and Flask.
 
@@ -8,7 +8,7 @@ This project detects faces from a webcam feed and recognizes known individuals u
 
 ---
 
-## 🚀 Features
+##  Features
 
 - 📷 Live webcam streaming
 - 🟢 Face detection using Haarcascade
@@ -20,7 +20,7 @@ This project detects faces from a webcam feed and recognizes known individuals u
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - Python 3.14
 - OpenCV (opencv-contrib-python)
@@ -31,7 +31,7 @@ This project detects faces from a webcam feed and recognizes known individuals u
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 Facial_Recognition_System/
 │
